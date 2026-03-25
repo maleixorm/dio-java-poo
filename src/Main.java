@@ -7,7 +7,6 @@ public class Main {
         System.out.printf("Homem --> Nome: %s | Idade: %d\n", male.getName(), male.getAge());
         System.out.printf("Mulher --> Nome: %s | Idade: %d\n", female.getName(), female.getAge());
 
-        Employee employee = new Employee();
         Manager manager = new Manager();
         manager.setName("João");
         manager.setLogin("joao");
