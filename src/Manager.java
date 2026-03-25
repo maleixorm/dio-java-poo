@@ -1,6 +1,6 @@
 package src;
 
-public class Manager extends Employee{
+public non-sealed class Manager extends Employee{
     private String login;
     private String password;
     private double commission;
