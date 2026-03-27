@@ -3,6 +3,11 @@ package src;
 public non-sealed class Salesman extends Employee{
     private double percentPerSold;
 
+    @Override
+    public String getCode() {
+        return "SL" + super.getCode();
+    }
+
     public Salesman() {
     }
 
