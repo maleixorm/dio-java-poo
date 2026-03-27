@@ -5,6 +5,11 @@ public non-sealed class Manager extends Employee{
     private String password;
     private double commission;
 
+    @Override
+    public String getCode() {
+        return "MN" + super.getCode();
+    }
+
     public Manager() {
     }
 
